@@ -7,7 +7,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 class ApiClient {
 
-    private static final String BASE_URL = "https://dataxpress.info/api/inter/";
+    private static final String BASE_URL = "https://dataxpress.info/api/";
     private static Retrofit retrofit;
 
     static Retrofit getApiClient(){
